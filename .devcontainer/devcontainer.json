@@ -5,6 +5,7 @@
         "ghcr.io/waruhachi/features/swift:latest": {},
 		"ghcr.io/waruhachi/features/theos:latest": {},
         "ghcr.io/waruhachi/features/libplist:latest": {},
-        "ghcr.io/waruhachi/features/libgcuniversal:latest": {}
+        "ghcr.io/waruhachi/features/libgcuniversal:latest": {},
+        "ghcr.io/waruhachi/features/comet:latest": {}
 	}
 }
