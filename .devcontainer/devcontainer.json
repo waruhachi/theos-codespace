@@ -4,15 +4,17 @@
 	"features": {
         "ghcr.io/waruhachi/features/swift:latest": {},
 		"ghcr.io/waruhachi/features/theos:latest": {},
+        "ghcr.io/waruhachi/features/comet:latest": {},
+        "ghcr.io/waruhachi/features/python:latest": {},
         "ghcr.io/waruhachi/features/libplist:latest": {},
-        "ghcr.io/waruhachi/features/libgcuniversal:latest": {},
-        "ghcr.io/waruhachi/features/comet:latest": {}
+        "ghcr.io/waruhachi/features/remotelog:latest": {},
+        "ghcr.io/waruhachi/features/libgcuniversal:latest": {}
 	},
-    "overrideFeatureInstallOrder": [
-        "ghcr.io/waruhachi/features/swift",
-        "ghcr.io/waruhachi/features/theos",
-        "ghcr.io/waruhachi/features/libplist",
-        "ghcr.io/waruhachi/features/libgcuniversal",
-        "ghcr.io/waruhachi/features/comet"
-    ]
+    "forwardPorts": [11909],
+    "portsAttributes": {
+        "11909": {
+            "label": "RemoteLog"
+        }
+    },
+    "postStartCommand": "[ -f \"$THEOS/include/RemoteLog.h\" ] && python3 \"$THEOS/rlogserver.py\" || true"
 }
