@@ -94,7 +94,6 @@ jobs:
                 tag_name: ${{ github.event.release.tag_name }}
                 body_path: release_body.md
                 files: packages/*.deb
-                append_body: true
 
             - name: Delete build artifacts
               uses: geekyeggo/delete-artifact@v5
