@@ -6,6 +6,7 @@
 		"ghcr.io/waruhachi/features/theos:latest": {},
         "ghcr.io/waruhachi/features/comet:latest": {},
         "ghcr.io/waruhachi/features/libplist:latest": {},
+		"ghcr.io/waruhachi/features/powercuts:latest": {},
         "ghcr.io/waruhachi/features/libgcuniversal:latest": {}
 	}
 }
