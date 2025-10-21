@@ -5,8 +5,19 @@
         "ghcr.io/waruhachi/features/swift:latest": {},
 		"ghcr.io/waruhachi/features/theos:latest": {},
         "ghcr.io/waruhachi/features/comet:latest": {},
+		"ghcr.io/waruhachi/features/python:latest": {},
         "ghcr.io/waruhachi/features/libplist:latest": {},
-		"ghcr.io/waruhachi/features/powercuts:latest": {},
+		"ghcr.io/waruhachi/features/clang-format:latest": {},
+		"ghcr.io/waruhachi/features/logos-format:latest": {},
         "ghcr.io/waruhachi/features/libgcuniversal:latest": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"tale.logos-vscode",
+				"steefh.external-formatters",
+				"llvm-vs-code-extensions.vscode-clangd"
+			]
+		}
 	}
 }
