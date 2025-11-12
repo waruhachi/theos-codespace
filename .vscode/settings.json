@@ -1,12 +1,12 @@
 {
 	"externalFormatters.languages": {
-	  "logos": {
-		"command": "python3",
-		"arguments": [
-		  "/home/vscode/logos-format.py",
-		  "--assume-filename",
-		  "objc"
-		]
-	  }
+		"logos": {
+			"command": "python3",
+			"arguments": [
+				"/home/vscode/logos-format.py",
+				"--assume-filename",
+				"objc"
+			]
+		}
 	}
-  }
+}
