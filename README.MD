@@ -85,9 +85,8 @@ Or follow these steps to create your own Theos Codespace:
    ```bash
    make clean package DEBUG=1
    ```
-
-	> [!IMPORTANT]  
-	> The linux container can only build rootful (`iphoneos-arm`) packages, use the GitHub Actions workflows to build rootless and RootHide packages.
+> [!IMPORTANT]  
+> The linux container can only build rootful (`iphoneos-arm`) packages, use the GitHub Actions workflows to build rootless and RootHide packages.
 
 6. **Release**
 
@@ -96,3 +95,4 @@ Or follow these steps to create your own Theos Codespace:
 ## License
 
 This repository is licensed under the GPL-3.0 License. See [`LICENSE`](LICENSE) for more details.
+
